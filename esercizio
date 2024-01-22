@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxmodel</title>
+
+    <style>
+
+* {margin: 0px;
+}
+.primo {margin: 0px 1px 1px 1px;
+background-color:rgb(40, 53, 78);
+text-align:center;
+float: left;
+}
+.primo2 {float: right;
+    background-color:rgb(40, 53, 78);
+text-align:center;
+float: right;
+}
+
+
+.secondo{margin: 1px 1px 1px -225px;
+text-align:center;
+background-color: bisque;
+float:left;
+}
+
+.secondo2{margin: 1px 1px 1px 1px;
+text-align:center;
+background-color: bisque;
+float: right;
+}
+
+
+.terzo
+{text-align:center;
+    margin: 1px 1px 1px 1px;background-color: aquamarine;
+    float: left
+}
+.terzo2 {text-align:center;
+    margin: 1px 1px 1px 1px;background-color: aquamarine;
+    float: bottom}
+
+
+</style>
+
+
+
+
+
+
+
+</head>
+<body>
+    <div>
+
+
+<div class="primo">
+   <h1>Cometa</h1>      
+    <figure>
+<img src="https://pngimg.com/uploads/comet/comet_PNG36.png" widht="50%" height="225">
+</div>
+
+<div class="primo2">
+    <h1>Montagna</h1>
+    <img class="montagna" src="https://pngimg.com/uploads/mountain/mountain_PNG21.png"widht="50%" height="225px"></div>
+
+</div>
+<div>
+   
+<div class="secondo">
+    <h1>Foresta</h1>
+    <img src="https://pngimg.com/uploads/forest/forest_PNG48.png"widht="50%" height="225px">
+</div>
+
+<div class="secondo2">
+    <h1>Vulcano</h1>
+    <img class="vulcano2" src="https://pngimg.com/uploads/volcano/volcano_PNG47.png"widht="50%" height="225px">
+</div>
+
+    <div class="terzo">
+    <h1>Mare</h1>
+    <img src="https://pngimg.com/uploads/sea/sea_PNG17.png"widht="50%" height="225px">
+</div>
+
+<div class="terzo2">
+    <h1>Giungla</h1>
+    <img class="giungla2"src="https://pngimg.com/uploads/jungle/jungle_PNG30.png"widht="50%" height="225px">
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
