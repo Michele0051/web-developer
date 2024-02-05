@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+
+<style>
+    
+.primo{     background-color:blue;
+            width: 50%;
+            height: 250px;
+            text-align: center;
+            color: black;
+            
+}
+.immuno{    width: auto;
+            height: auto;
+            position: absolute;
+            top: 60px;
+            left: 450px;
+            display: inline;
+        }
+.secondo{   background-color: aqua;
+            width: 50%;
+            height: 250px;
+            text-align: center;
+            position: absolute;
+            top: 21px;
+            right: 10px;
+}
+.immdue{    width: auto;
+            height: auto;
+            position: relative;
+            top: -50px;
+            display: inline;
+}
+.castoro{   position: relative;
+            top: -25px
+}
+.terzo{     background-color: darkorange;
+            width: 50%;
+            height: 250px;
+            text-align: center;
+            color: black;
+            position: absolute;
+            left: auto;
+            top: 270px;
+}
+.immtre {   width: auto;
+            height: 180px;
+            position: relative;
+            top: -10px;
+            left:-10px;
+}
+.quattro {  background-color: coral;
+            width: 50%;
+            height: 250px;
+            text-align: center;
+            color: black;
+            position: absolute;
+            right: 10px;
+            top: 270px;
+}
+.immquattro {   width: auto;
+                height: 200px;
+                position: relative;
+                top: -33px;
+}
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+<body>
+
+<div class="primo"><h1>Volpe artica</h1>
+    <img class="immuno" src="https://pngimg.com/uploads/arctic_fox/arctic_fox_PNG41378.png"></div>
+<div class="secondo"><h1 class="castoro">Castoro</h1>
+    <img class="immdue" src="https://pngimg.com/uploads/beaver/beaver_PNG39.png"></div>
+<div class="terzo"><h1>Uccello</h1>
+    <img class="immtre" src="https://pngimg.com/uploads/birds/birds_PNG115.png"></div>
+<div class="quattro"><h1>Cobra</h1>
+    <img class="immquattro" src="https://pngimg.com/uploads/cobra/cobra_PNG28.png"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
