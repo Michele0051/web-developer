@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+    body {margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2? family= Protest+Strike & display=swap');
+
+p, h1,h2,h3 {
+    font-family: "Protest Strike", sans-serif;
+    color:firebrick;
+    
+}
+@media (max-width:420px) {
+
+ 
+.Cane{      width: 100%;
+            height: 250px;
+            background-color:grey;
+            text-align: center;
+}
+.Gatto {    width: 100%;
+            background-color:aqua;
+            text-align: center;
+            height: 250px;
+}
+.Leone {    width: 100%;
+            background-color:darkblue;
+            text-align: center;
+            height: 250px;
+}
+.Cavallo {  width: 100%;
+            background-color:coral;
+            text-align: center;
+            height: 250px;
+}
+.Cane2{     width: 100%;
+           height: 232px;
+
+}
+.Gatto2{    width: 100%;
+            height: 232px;
+}
+.Leone2{    width:100%;
+            height: 232px;    
+}
+.Cavallo2{  width:100%;
+            height: 232px;
+}
+
+}
+@media (min-width:420px) {
+.contenitore{   display: flex;
+                width: 100%;
+
+}
+
+.Cane{
+            width: 25%;
+            height: 250px;
+            background-color:blueviolet;
+            float: left;
+            text-align: center;
+            flex: 4;
+}
+ .Gatto {   width: 25%;
+            background-color:darkturquoise;
+            text-align: center;
+            height: 250px;
+            float: right;
+            flex: 4;
+ }
+.Leone {    width: 25%;
+            background-color:cadetblue;
+            text-align: center;
+            height: 250px;
+            float:left;
+            flex: 4;
+        }
+.Cavallo{   width: 25%;
+            background-color:darkorange;
+            text-align: center;
+            height: 250px;
+            float:right;
+            flex: 4;
+    }
+.Cane2{     width: 100%;
+                height: 200px;
+}
+.Gatto2{    width: 100%;
+            height: 200px;
+}
+.Leone2{    width:100%;
+            height: 200px;  
+}
+.Cavallo2{  width:100%;
+            height: 200px;
+
+
+}
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+<div class="contenitore">
+<div class="Cane"><p>Cane seduto</p><img class="Cane2" src="https://www.shutterstock.com/shutterstock/photos/2038825994/display_1500/stock-photo-adorable-samoyed-dog-in-modern-living-room-2038825994.jpg"></div>
+<div class="Gatto"><p>Gatto che salta</p><img class="Gatto2" src="https://www.shutterstock.com/shutterstock/photos/2315020963/display_1500/stock-photo-funny-cat-flying-photo-of-a-playful-tabby-cat-jumping-mid-air-looking-at-camera-background-with-2315020963.jpg"></div>
+<div class="Leone"><p>Leone che ruggisce sulla scogliera</p><img class="Leone2" src="https://www.shutterstock.com/shutterstock/photos/2314640151/display_1500/stock-photo-lion-roaring-on-the-cliff-2314640151.jpg"></div>
+<div class="Cavallo"><p>Cavallo che impenna</p><img class="Cavallo2" src="https://www.shutterstock.com/shutterstock/photos/2274635103/display_1500/stock-photo-black-horse-rearing-up-isolated-on-white-background-2274635103.jpg"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
