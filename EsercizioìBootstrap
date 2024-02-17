@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<style>
+
+#uno, #due, #tre{border: 1px solid;text-align: center;}
+
+
+
+</style>
+
+ 
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4" id="uno"><b>Paesi unione europea</b></div>
+            <div class="col-4" id="due"><b>Capitali</b></div>
+            <div class="col-4" id="tre"><b>Bandiere</b></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Austria</div>
+                    <div class="col-4" id="due">Vienna</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1280px-Flag_of_Austria.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Belgio</div>
+                    <div class="col-4" id="due">Bruxelles</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/1024px-Flag_of_Belgium.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Cipro</div>
+                    <div class="col-4" id="due">Nicosia</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/1280px-Flag_of_Cyprus.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                 <div class="row">
+                    <div class="col-4" id="uno">Croazia</div>
+                    <div class="col-4" id="due">Zagabria</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/1920px-Flag_of_Croatia.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Francia</div>
+                    <div class="col-4" id="due">Parigi</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg/1280px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Germania</div>
+                    <div class="col-4" id="due">Berlino</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1920px-Flag_of_Germany.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Italia</div>
+                    <div class="col-4" id="due">Roma</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Lussemburgo</div>
+                    <div class="col-4" id="due">Lussemburgo</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/1920px-Flag_of_Luxembourg.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Paesi bassi</div>
+                    <div class="col-4" id="due">Amsterdam</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1280px-Flag_of_the_Netherlands.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Danimarca</div>
+                    <div class="col-4" id="due">Copenaghen</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Irlanda</div>
+                    <div class="col-4" id="due">Dublino</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/1920px-Flag_of_Ireland.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+               <div class="row">
+                    <div class="col-4" id="uno">Grecia</div>
+                    <div class="col-4" id="due">Atene</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1280px-Flag_of_Greece.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Portogallo</div>
+                    <div class="col-4" id="due">Lisbona</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1280px-Flag_of_Portugal.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Spagna</div>
+                    <div class="col-4" id="due">Madrid</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Flag_of_Spain_%281945%E2%80%931977%29.svg/1280px-Flag_of_Spain_%281945%E2%80%931977%29.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Finlandia</div>
+                    <div class="col-4" id="due">Helsinky</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/1920px-Flag_of_Finland.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Svezia</div>
+                    <div class="col-4" id="due">Stoccolma</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1920px-Flag_of_Sweden.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Estonia</div>
+                    <div class="col-4" id="due">Tallinn</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/1920px-Flag_of_Estonia.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Lettonia</div>
+                    <div class="col-4" id="due">Riga</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/1920px-Flag_of_Latvia.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Lituania</div>
+                    <div class="col-4" id="due">Vilnius</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/1920px-Flag_of_Lithuania.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Malta</div>
+                    <div class="col-4" id="due">La Valletta</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/1280px-Flag_of_Malta.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Polonia</div>
+                    <div class="col-4" id="due">Varsavia</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1920px-Flag_of_Poland.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Repubblica Ceca</div>
+                    <div class="col-4" id="due">Praga</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Slovacchia</div>
+                    <div class="col-4" id="due">Bratislava</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/1280px-Flag_of_Slovakia.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Ungheria</div>
+                    <div class="col-4" id="due">Budapest</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/1920px-Flag_of_Hungary.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Bulgaria</div>
+                    <div class="col-4" id="due">Sofia</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1920px-Flag_of_Bulgaria.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Romania</div>
+                    <div class="col-4" id="due">Bucarest</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/1280px-Flag_of_Romania.svg.png" width="20px" height="15px"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4" id="uno">Slovenia</div>
+                    <div class="col-4" id="due">Lubiana</div>
+                    <div class="col-4" id="tre"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/1920px-Flag_of_Slovenia.svg.png" width="20px" height="15px"></div>   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</body>
+</html>
