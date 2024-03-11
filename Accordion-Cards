@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="it">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <style>
+.card{text-align: center;
+            background-color:cyan;
+}
+
+
+
+
+        </style>
+  </head>
+<!--Cards-->
+<body>
+    <div class="card-group">
+        <div class="card">
+            <center>
+          <img src="https://cdn.icon-icons.com/icons2/2622/PNG/512/gui_shipping_icon_157590.png" style="height: 50%; width: 25%;" class="card-img-top" </center>
+          <div class="card-body">
+            <h5 class="card-title">Spedizione veloce e affidabile</h5>
+            <p class="card-text">Spedizione sicura in ogni zona d'italia in poco tempo.</p>
+    
+          </div>
+        </div>
+     
+        <div class="card">
+            <center>
+            <img src="https://cdn.icon-icons.com/icons2/1993/PNG/512/chat_chatting_communication_conversation_email_mail_message_icon_123226.png" style="height: 50%; width: 25%;" class="card-img-top" </center>
+            <div class="card-body">
+              <h5 class="card-title">Assistenza 24h</h5>
+              <p class="card-text">Assistenza clienti disponibili ogni giorno ad ogni ora 24h per qualsiasi problema riscontriate.</p>
+          </div>
+        </div>
+        <div class="card">
+            <center>
+                <img src="https://cdn.icon-icons.com/icons2/4038/PNG/512/atm_money_payment_finance_pay_credit_card_debit_card_icon_256742.png" style="height: 50%; width: 25%;" class="card-img-top" </center>
+                <div class="card-body">
+                  <h5 class="card-title"> Pagamento con carta</h5>
+                  <p class="card-text">Puoi pagare comodamente con la tua carta di credito o anche con Paypal.</p>
+          </div>
+        </div>
+      </div>
+
+<!--Accordion-->
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <strong>Fate il reso dei prodotti?</strong>
+    </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Si, certamente, entro 72h dall'arrivo della merce si può emettere il reso, oltre le 72h non si può fare più.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <strong>È possibile monitorare la spedizione?</strong>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Certo, dopo la spedizione è sempre disponibile monitorare la posizione della merce
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <strong>Si può pagare con qualsiasi carta?</strong>
+    </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Si con qualsiasi carta.
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFOUR">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFOUR" aria-expanded="false" aria-controls="collapseFOUR">
+        <strong>Dopo quanto si viene rimborsati dopo un reso?</strong>
+      </button>
+    </h2>
+    <div id="collapseFOUR" class="accordion-collapse collapse" aria-labelledby="headingFOUR" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Dai 3-5 giorni lavorativi.
+    </div>
+    </div>
+
+
+
+
+  </div><div class="accordion-item">
+    <h2 class="accordion-header" id="headingFIVE">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFIVE" aria-expanded="false" aria-controls="collapseFIVE">
+        <strong>Posso sostituire un articolo?</strong>
+      </button>
+    </h2>
+    <div id="collapseFIVE" class="accordion-collapse collapse" aria-labelledby="headingFIVE" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Si, se l'ordine deve ancora essere spedito basta annullare l'ordine, mentre se l'ordine è gia stato spedito, occorre fare il reso.
+      </div>
+    </div>
+
+
+
+  </div><div class="accordion-item">
+    <h2 class="accordion-header" id="headingSIX">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSIX" aria-expanded="false" aria-controls="collapseSIX">
+        <strong>Quanto giorni ci vogliono per una consegna</strong>
+    </button>
+    </h2>
+    <div id="collapseSIX" class="accordion-collapse collapse" aria-labelledby="headingSIX" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      In genere ci mettiamo 4-5 giorni lavorativi.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
