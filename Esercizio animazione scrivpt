@@ -1,0 +1,50 @@
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+#volo {
+  width: 75px;
+  height: 75px;
+  background-image: url('https://pngimg.com/uploads/birds/birds_PNG111.png');
+  background-size:cover;
+  position: relative;
+  left: 1100px;
+}
+@keyframes volo {
+ from {left: 1100px;}
+ to {left: 50px;
+     width:150px;   
+    height: 150px;}
+
+}
+
+</style>
+</head>
+
+<body>
+    <div id="volo"></div><br>
+    <button onclick="uccello()">Fallo volare</button>
+    <button onclick="uccello2()">Cambia</button>
+    <button onclick="uccello3()">Cambia di nuovo</button>
+
+
+<script>
+function uccello() {
+    document.getElementById("volo").style.animation = "volo 5s 1";
+
+}
+function uccello2() {
+    document.getElementById("volo").style.backgroundImage = "url('https://pngimg.com/uploads/birds/birds_PNG84.png')";
+}
+
+    function uccello3() {
+    document.getElementById("volo").style.backgroundImage = "url('https://pngimg.com/uploads/birds/birds_PNG88.png')";
+}
+
+</script>
+
+</body>
+</html>
