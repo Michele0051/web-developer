@@ -1,0 +1,75 @@
+<?php
+$importo = 16500;
+$ivaacconto = $importo * 0.20;
+$baseimponibile1 = $importo * 0.75;
+$baseimponibile2 = $importo * 0.60;
+$percentualeiva1 = $baseimponibile1 * 0.20;
+$percentualeiva2 = $baseimponibile2 * 0.20;
+$ivaimposta = $importo * 0.30;
+
+
+echo "<table style='border:3px solid; width:1500px; height:500px; text-align: center; text-transform: uppercase;'>
+
+<tr>
+<td style='border:0.5px solid; background-color:red; color: orange; height:60px;'>Importo</td>
+<td style='border:0.5px solid; background-color:red; color: orange'>Aliquota</td>
+<td style='border:0.5px solid; background-color:red; color: orange'>Base Imponibile</td>
+<td style='border:0.5px solid; background-color:red; color: orange'>Valore Ritenuta</td>
+</tr>
+
+<tr>
+<td style='border:1px solid'> Compensi per prestazioni di lavoro autonomo anche occasionale: <br> <br> $importo €</td>
+<td style='border:1px solid'> 20% </td> 
+<td style='border:1px solid'> 16500 €</td>
+<td style='border:1px solid'> $ivaacconto €</td>
+</tr>
+
+<tr>
+<td style='border:1px solid'> Compensi per cessione diritti di autore da parte dello stesso autore: <br> <br> $importo €</td>
+<td style='border:1px solid'> 20% <br> <br> 20% </td> 
+<td style='border:1px solid'>soggetti età superiore a 35 anni (75% imp.) $baseimponibile1; <br> <br> soggetti età inferiori a 35 anni (60% imp.) $baseimponibile2 €</td>
+<td style='border:1px solid'> $percentualeiva1; <br> <br> $percentualeiva2 €</td>
+</tr>
+
+<tr>
+<td style='border:1px solid'> Compensi per l’assunzione di obblighi di fare, non fare e permettere: <br> <br> $importo €</td>
+<td style='border:1px solid'> 20% </td> 
+<td style='border:1px solid'> 16500 €</td>
+<td style='border:1px solid'> $ivaacconto €</td>
+</tr>
+
+<tr>
+<td style='border:1px solid'> Compensi ad associati in partecipazione che apportano solo lavoro: <br> <br> $importo €</td>
+<td style='border:1px solid'> 20%</td> 
+<td style='border:1px solid'> 16500 €</td>
+<td style='border:1px solid'> $ivaacconto €</td>
+</tr>
+
+<tr>
+<td style='border:1px solid'> Partecipazione agli utili di soci fondatori o promotori: <br> <br> $importo €</td>
+<td style='border:1px solid'> 20% </td> 
+<td style='border:1px solid'> 16500 €</td>
+<td style='border:1px solid'> $ivaacconto €</td>
+</tr>
+
+<tr>
+<td style='border:1px solid'> Compensi di qualsiasi natura per prestazioni di lavoro autonomo anche occasionale <br> corrisposti a soggetti nono residenti: <br> <br> $importo €</td>
+<td style='border:1px solid'> 30% </td> 
+<td style='border:1px solid'> 16500 €</td>
+<td style='border:1px solid'> $ivaimposta €</td>
+</tr>
+
+<tr>
+<td style='border:1px solid'> Compensi per cessione di opere di ingegno, brevetti industriali, marchi d’impresa,<br> formule, etc corrisposti a soggetti non residenti: <br> <br> $importo €</td>
+<td style='border:1px solid'> 30% </td> 
+<td style='border:1px solid'> 16500 €</td>
+<td style='border:1px solid'> $ivaimposta €</td>
+</tr>
+
+
+
+
+
+</table>";
+
+?>
