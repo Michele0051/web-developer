@@ -1,0 +1,15 @@
+<?php
+$rispostacorretta= array('roma', 'Roma','ROMA', 'ROma', 'ROMa','romA','roMA','rOMA');
+$risposta = $_POST['quiz'];
+
+if (in_array($risposta, $rispostacorretta )){
+
+    echo "Esatto, dai era facile";
+}
+
+else {
+    echo"No hai sbagliato, non era cosi difficile";
+
+}
+
+?>
