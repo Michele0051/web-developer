@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+</head>
+<style>
+.h1 {color: rgb(214, 20, 20);
+
+
+}
+
+</style>
+<body>
+    <h1 class="h1">Carica un file</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="fileToUpload"><strong>Seleziona file da caricare:</strong></label>
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Carica File" name="submit">
+    </form>
+</body>
+</html>
