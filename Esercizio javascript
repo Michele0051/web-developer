@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1 id="risultato" style="color: orangered; text-align: center;"></h1>
+<script>    
+var Marco = prompt("inserisci la prima variabile");
+var Franco = prompt("inserisci la seconda variabile che divide la prima");
+var Luca = prompt("inserisci terza varibile che fa la differenza")
+var somma = Marco / Franco - Luca;
+
+document.getElementById("risultato").innerHTML = somma;
+</script> 
+
+
+
+</body>
+</html>
