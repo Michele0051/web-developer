@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>calcolo iva</h1>
+     <h1 id="risultato" style="text-align: center;"></h1>
+<!--javascript interna da inserire sempre prima della fine del tag body-->
+<script>  
+
+
+function importoivato() {
+    var importo =  prompt ('inserisci il valore senza iva');
+    var iva = 1.22;
+    return importo * iva;
+
+}
+document.write ("l'importo ivato è:" + "<br>" + importoivato());
+
+function iva() {
+    var importo =  prompt ('inserisci il valore già ivato');
+    var iva = 22;
+    return importo / 100 * iva;
+
+}
+document.write ("lo scorporo iva è:" + "<br>"  + iva());
+
+
+
+
+
+var iva = prompt('inserisci');
+/* non richiamare l'assegnazione della viaribile */
+iva *= 1.22;
+document.write("il valore ivato è :" + iva + " €" + "<br>"); // Prints: 50
+
