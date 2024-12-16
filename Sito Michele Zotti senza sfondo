@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michele Zotti - Web Developer</title>
+</head>
+
+<style>
+* 
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h2 {background-color:springgreen;
+    color:black
+}
+
+p {font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    color: black;
+
+}
+
+header {
+    background-color: #4CAF50;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.section ul {
+    list-style-type: none;
+}
+
+.section ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contenitore {
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+}
+
+footer {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.immagine {
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+@media (max-width:420px){
+
+footer{
+position: relative;
+bottom: 0;
+width: 100%;
+
+}
+
+
+.contenitore {
+    width: 98%;
+    margin-left: 4px;
+    margin-right: 5px;
+
+}
+
+p { padding: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+}
+
+@media (max-width:1500px){
+
+footer{
+position: relative;
+bottom: 0;
+width: 100%;
+
+}
+
+.contenitore {
+    width: 98%;
+    margin-left: 4px;
+    margin-right: 5px;
+
+}
+
+p { padding: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+}
+.copyright {color: white;
+
+
+}
+
+
+</style>
+
+<body>
+    <header>
+        <div class="contenitore">
+            <h1>Michele Zotti</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+
+    
+    <nav>
+        <ul>
+            <li><a href="#chi-sono">Chi sono</a></li>
+            <li><a href="#competenze">Competenze</a></li>
+            <li><a href="#contatti">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <section id="chi-sono" class="section">
+        <div class="contenitore">
+            <h2>Chi sono</h2>
+            <p>Ciao, sono Michele Zotti, un appassionato web developer. Il mio obiettivo è costruire soluzioni funzionali e responsive che soddisfino le esigenze dei miei clienti.</p>
+            <p>Specializzato in HTML, CSS, JavaScript, PHP, sono sempre alla ricerca di nuove sfide per crescere nel mondo del web development.</p>
+        </div>
+    </section>
+
+    <section id="competenze" class="section">
+        <div class="contenitore">
+            <h2>Le mie competenze</h2>
+            <ul>
+                <li><strong>HTML5</strong> - Creazione di pagine web fluide e ottimizzate.</li>
+                <li><strong>CSS</strong> - Design responsivo e layout avanzati.</li>
+                <li><strong>JavaScript</strong> - Programmazione dinamica per siti interattivi.</li>
+                <li><strong>PHP</strong> - Utilizzo di linguaggio php</li>
+                <li><strong>Siti</strong> - Sviluppo di siti web moderni.</li>
+                <li><strong>Team</strong> - Controllo versione e collaborazione in team.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contatti" class="section">
+        <div class="contenitore">
+            <h2>Contatti</h2>
+            <p>Per qualsiasi informazione o richiesta, non esitare a contattarmi:</p>
+            <ul>
+                <li>Email: <a href="zottimichele00@gmail.com">zottimichele00@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/zotti-michele-667a6a19b/" target="_blank">Profilo LinkedIn</a></li>
+                <li>GitHub: <a href="https://github.com/Michele0051/web-developer" target="_blank">Progetti GitHub Michele Zotti</a></li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p class="copyright">&copy;  2024 Michele Zotti. Tutti i diritti riservati. </p>
+    </footer>
+</body>
+</html>
