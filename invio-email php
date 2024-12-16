@@ -1,0 +1,20 @@
+<?php
+$subject = $_POST['subject'];
+$from = $_POST['email'];
+$name = $_POST['nome'];
+$message = '<html><body><p>Messaggio inviato da: ' . $name . '</p>' . '<p align="center" style="color:orange,font-family:arial">' . $_POST['message'] . '</p></html></body>';
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+$headers .= 'From: '.$from."\r\n".
+    'Reply-To: '.$from."\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+    if(mail("zottimichele00@gmail.com", $subject, $message, $headers)){
+        echo 'Si la mail è stata inviata con sucesso.';
+    } else{
+        echo 'No la mail non è stata inviata con sucesso.';
+    }
+
+
+?>
