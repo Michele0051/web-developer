@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Modulo di Contatto</title>
+</head>
+<body>
+    <h2>Contattaci</h2>
+    <p>Compilate il modulo con le informazioni</p>
+    <form action="invioemail.php" method="post" autocomplete="on">
+        <p>
+            <label for="inputName">Nome:<sup>*</sup></label>
+            <input type="text" name="nome" id="inputName">
+        </p>
+        <p>
+            <label for="inputEmail">Email:<sup>*</sup></label>
+            <input type="text" name="email" id="inputEmail">
+        </p>
+        <p>
+            <label for="inputSubject">Oggetto:</label>
+            <input type="text" name="subject" id="inputSubject">
+        </p>
+        <p>
+            <label for="inputComment">Message:<sup>*</sup></label>
+            <textarea name="message" id="inputComment" rows="5" cols="30"></textarea>
+        </p>
+        <input type="submit" value="invia">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
