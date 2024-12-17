@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="it">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+
+
+
+
+
+    </head>
+    <style>
+        .orologio { 
+            color:rgb(127, 211, 169);
+            text-shadow: 1px 1px rgb(41, 2, 2);
+            animation-name: ani-orologio;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+        
+        }
+        @keyframes ani-orologio {
+           from {color:blue;
+                 text-shadow: 1px 1px black;
+                 margin-right: -900px;
+        
+           }
+           to {color: rgb(113, 183, 196);
+               text-shadow: 2px 2px rgb(41, 2, 2);
+               margin: 0px;
+           }
+        
+        }
+        .imm {
+            width: 250px; 
+            height: 250px;
+            animation-name: imm-animato;
+            animation-duration: 10s;
+            animation-delay: 500ms;
+            animation-iteration-count: 6s;
+            position: relative;
+            left: -55px;
+            margin: 0px;
+            
+        }
+       .indica {
+        width: 100px; 
+        height: 100px;
+        animation-name:ani-indica;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        position: relative;
+        top: -1000px
+
+       }
+    @keyframes ani-indica {
+
+    0% { 
+        
+
+    }    
+    50% {    top: 65px;
+            right: 90px
+    }
+  
+    100% {  top: 105px;
+            right: 150px;
+
+
+    }
+
+    }
+
+
+
+
+
+
+            </style>
+
+
+</head>
+
+    <body>
+
+
+    <body>
+
+
+    </div>
+    <div class="container-fluid" style="padding-top: 20px;margin:auto;">
+    <div class="row">
+     <div class="col-3">&nbsp;</div> 
+     <div class="col-6">
+    <h1 class="orologio" style="text-align:center">Orologio</h1>
+    <img src="https://cdn.pixabay.com/photo/2012/04/26/18/45/clock-42809_1280.png " class="imm">
+    </div> 
+    <div class="col-3">
+    <img class="indica" src="https://www.shutterstock.com/shutterstock/photos/2126345495/display_1500/stock-photo-portrait-of-excited-smiling-positive-funny-casual-redhead-girl-in-glasses-wearing-blue-overalls-2126345495.jpg">
+</div> 
+ </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
