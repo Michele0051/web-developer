@@ -1,0 +1,13 @@
+<?php
+$rispostepossibili = array('titty','tittie','titti');
+$risposta = $_POST['quiz'];
+
+if (in_array($risposta, $rispostepossibili)) {
+
+    echo "bravissimo! è esatto";
+}
+else {
+   echo "hai toppatto torna a guardare i cartoon";
+}
+
+?>
